@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.PopupActivity">
+
+    <TextView
+        android:id="@+id/tv_back"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#1F659A"
+        android:drawableLeft="@drawable/ic_arrow_back"
+        android:drawablePadding="5dp"
+        android:gravity="center_vertical"
+        android:text="DESCRIPTION"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_popup_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="What changed for the market while you were sleeping? Top 10 things to know
+The Indian stock market is expected to open in the green as trends on SGX Nifty indicate a positive opening for the index in India with a 103 points gain.
+Moneycontrol.com
+9 hours ago
+Last month, China's antitrust authorities had launched a probe into Alibaba Group Holding
+Alibaba Group Founder Jack Ma Suspected To Be Missing For 2 Months: Reports
+Alibaba Group founder Jack Ma, who has been under China government's scrutiny since the abrupt suspension of Ant's blockbuster $37 billion initial public ...
+NDTV Profit
+2 hours ago
+Chinese billionaire Jack Ma suspected missing since October | World News | WION News
+video_youtube
+WION
+1 hour ago
+"
+        android:textColor="#000000"
+        android:textSize="13sp" />
+
+</LinearLayout>

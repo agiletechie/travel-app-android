@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView_hotel"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"/>
+
+            <TextView
+                android:id="@+id/textView_rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rating 4.0/5"
+                android:textSize="25sp"
+                android:textColor="@android:color/white"
+                android:layout_gravity="start|bottom"/>
+
+            <TextView
+                android:id="@+id/textView_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RS 2000"
+                android:textSize="25sp"
+                android:textColor="@android:color/white"
+                android:layout_gravity="end|bottom" />
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/textView_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HELLONDJAHDJD"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:id="@+id/button_book"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="BOOK NOW"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:background="@android:color/holo_green_light"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
